@@ -152,6 +152,7 @@ color: var(--contentColor);
 }
 
 .form-container{
+  position: relative;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -170,4 +171,18 @@ form{
 }
 .input.name{
 width: 48%;
+}
+
+.success{
+  position: absolute;
+  top: 9%;
+  background-color:orange;
+  border-radius: 10px;
+}
+
+.success-msg{
+  display: inline-block;
+  margin: 0;
+  padding: 15px 20px;
+color: rgb(34, 143, 1);
 }
